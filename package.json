@@ -1,0 +1,25 @@
+{
+  "name": "ad-language-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": "Google Inc.",
+  "type": "module",
+  "scripts": {
+    "start": "npx functions-framework --target=AdLanguageMonitor",
+    "test": "echo 'Error: No tests defined' && exit 1",
+    "lint": "npx eslint ."
+  },
+  "dependencies": {
+    "retext-equality": "^6.6.0",
+    "vfile-reporter": "^7.0.3",
+    "vfile-reporter-json": "^3.1.0",
+    "retext": "^8.1.0"
+  },
+  "devDependencies": {
+    "@google-cloud/functions-framework": "^2.1.1",
+    "express": "^4.17.2",
+    "eslint": "^8.8.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
