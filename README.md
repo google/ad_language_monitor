@@ -4,7 +4,7 @@
 
 ## Overview
 
-A Cloud Function that usese Retext.js to monitor the inclusive language of ad copy.
+A Cloud Function that uses Retext.js to monitor the inclusive language of ad copy.
 
 ## Deploy
 
