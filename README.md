@@ -10,7 +10,11 @@ A Cloud Function that uses Retext.js to monitor the inclusive language of ad cop
 
 Run the command:
 
-    gcloud functions deploy AdLanguageMonitor --runtime node14 --trigger-http
+    gcloud functions deploy AdLanguageMonitor \
+        --runtime nodejs14 \
+        --memory 1GB \
+        --timeout 540s \
+        --trigger-http
 
 ## Testing
 
